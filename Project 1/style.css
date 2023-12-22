@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(41, 44, 41, 0.8), rgba(41, 44, 41, 1)), url(./bg\ pic\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+#nav {
+    width: 100%;
+    background-color: rgba(41, 44, 41, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+a span {
+    color: white;
+}
+
+#nav ul li {
+    display: inline-block;
+}
+
+#nav ul {
+    margin-left: 100px;
+    padding: 20px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 20px;
+}
+
+#nav ul li a:hover {
+    color: white;
+}
+
+#home {
+    margin-left: 100px;
+}
+
+#left {
+    margin-left: 20px;
+}
+
+#card {
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    background-color: rgb(47, 49, 47);
+    text-align: center;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+#card img {
+    border-radius: 50px;
+    border: 10px solid rgb(108, 59, 59);
+    margin-top: -70px;
+}
+
+#card h1 {
+    font-size: 50px;
+    padding: 10px;
+    color: gray;
+    padding-top: 10px;
+}
+
+#card h2 {
+    font-size: 30px;
+    padding: 10px;
+    color: gray;
+    padding-top: 10px;
+}
+
+#card p {
+    color: gray;
+    font-size: 20px;
+}
+
+#media a {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid gray;
+    width: 42px;
+    height: 42px;
+    line-height: 40px;
+    margin: 40px 5px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+#media a:hover {
+    background-color: gray;
+
+}
+
+#about {
+    margin: 90px;
+    font-size: 15px;
+    text-align: justify;
+    box-shadow: 2px 2px 8px gray, -2px -2px 8px gray;
+    padding: 20px;
+}
+
+#about h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#left-side {
+    float: left;
+    width: 500px;
+}
+
+#right-side {
+    float: right;
+    width: 500px;
+}
+
+#m-info {
+    clear: both;
+    text-align: center;
+
+}
+
+#m-info button {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#m-info button:hover {
+    background-color: gray;
+    color: white;
+    border: none;
+}
+
+#m-info a:hover {
+    background-color: gray;
+    color: white;
+    border: none;
+}
+
+#m-info button a {
+    text-decoration: none;
+}
+
+#info {
+    margin-top: 50px;
+
+}
+
+#about span {
+    color: gray;
+    font-weight: bold;
+}
+
+#left- img {
+    border-radius: 30px;
+}
+
+#skills h1 {
+    text-align: center;
+    margin-top: -50px;
+}
+
+#skills {
+    padding: 100px;
+    background-color: gray;
+}
+
+#skill {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skill-1 {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.html {
+    width: 98%;
+    background-color: rgb(22, 22, 32);
+}
+
+.CSS {
+    width: 88%;
+    background-color: rgb(22, 22, 32);
+}
+
+.JavaScript {
+    width: 70%;
+    background-color: rgb(22, 22, 32);
+}
+
+.Python {
+    width: 77%;
+    background-color: rgb(22, 22, 32);
+}
+
+.PHP {
+    width: 50%;
+    background-color: rgb(22, 22, 32);
+}
+
+.SQL {
+    width: 80%;
+    background-color: rgb(22, 22, 32);
+}
+
+#contact {
+    padding: 40px 0px 100px 0px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(34, 34, 53);
+}
+
+#contact h1 {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#contact form {
+    width: 700px;
+    margin: auto;
+}
+
+#contact input {
+    width: 500px;
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    background-color: gray;
+    color: black;
+}
+
+#footer {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(16, 16, 26);
+    color: gray;
+}
+
+#address,
+#Quick-link,
+#about-us {
+    display: inline-block;
+    padding: 50px;
+}
+
+footer {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    header #nav {
+        background-color: ;
+    }
+}
